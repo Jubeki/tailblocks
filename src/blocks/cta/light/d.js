@@ -52,7 +52,7 @@ function LightCTAD(props) {
 }
 
 LightCTAD.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightCTAD.propTypes = {

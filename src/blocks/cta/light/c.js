@@ -36,7 +36,7 @@ function LightCTAC(props) {
 }
 
 LightCTAC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightCTAC.propTypes = {

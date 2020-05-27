@@ -117,7 +117,7 @@ function LightPricingC(props) {
 }
 
 LightPricingC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightPricingC.propTypes = {

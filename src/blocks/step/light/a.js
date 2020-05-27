@@ -155,7 +155,7 @@ function LightStepA(props) {
 }
 
 LightStepA.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightStepA.propTypes = {

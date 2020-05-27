@@ -122,7 +122,7 @@ function LightContentA(props) {
 }
 
 LightContentA.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightContentA.propTypes = {

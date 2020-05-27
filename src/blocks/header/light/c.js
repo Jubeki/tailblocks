@@ -48,7 +48,7 @@ function LightHeaderC(props) {
 }
 
 LightHeaderC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightHeaderC.propTypes = {

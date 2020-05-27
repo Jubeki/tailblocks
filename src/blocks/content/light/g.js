@@ -51,7 +51,7 @@ function LightContentG(props) {
 }
 
 LightContentG.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightContentG.propTypes = {

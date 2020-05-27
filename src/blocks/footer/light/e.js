@@ -171,7 +171,7 @@ function LightFooterE(props) {
 }
 
 LightFooterE.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightFooterE.propTypes = {

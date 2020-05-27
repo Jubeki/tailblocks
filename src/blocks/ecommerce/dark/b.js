@@ -184,7 +184,7 @@ function DarkEcommerceB(props) {
 }
 
 DarkEcommerceB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkEcommerceB.propTypes = {

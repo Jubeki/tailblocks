@@ -69,7 +69,7 @@ function DarkHeroD(props) {
 }
 
 DarkHeroD.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkHeroD.propTypes = {

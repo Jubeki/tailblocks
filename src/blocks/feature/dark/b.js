@@ -149,7 +149,7 @@ function DarkFeatureB(props) {
 }
 
 DarkFeatureB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkFeatureB.propTypes = {

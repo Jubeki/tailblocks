@@ -41,7 +41,7 @@ function DarkCTAB(props) {
 }
 
 DarkCTAB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkCTAB.propTypes = {

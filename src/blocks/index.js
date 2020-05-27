@@ -159,7 +159,7 @@ import DarkTestimonialA from './testimonial/dark/a';
 import DarkTestimonialB from './testimonial/dark/b';
 import DarkTestimonialC from './testimonial/dark/c';
 
-export default function getBlock({theme = 'indigo', darkMode = false}) {
+export default function getBlock({theme = 'primary', darkMode = false}) {
   return {
     Blog: {
       BlogA: darkMode ? <DarkBlogA theme={theme} /> : <LightBlogA theme={theme} />,
@@ -257,4 +257,3 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
     }
   }
 }
-

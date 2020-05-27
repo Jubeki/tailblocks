@@ -149,7 +149,7 @@ function DarkGalleryC(props) {
 }
 
 DarkGalleryC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkGalleryC.propTypes = {

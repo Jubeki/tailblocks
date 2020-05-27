@@ -73,7 +73,7 @@ function LightTestimonialC(props) {
 }
 
 LightTestimonialC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightTestimonialC.propTypes = {

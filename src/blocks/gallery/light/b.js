@@ -106,7 +106,7 @@ function LightGalleryB(props) {
 }
 
 LightGalleryB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightGalleryB.propTypes = {

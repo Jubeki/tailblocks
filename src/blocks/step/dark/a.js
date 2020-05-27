@@ -155,7 +155,7 @@ function DarkStepA(props) {
 }
 
 DarkStepA.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkStepA.propTypes = {

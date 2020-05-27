@@ -89,7 +89,7 @@ function LightFooterD(props) {
 }
 
 LightFooterD.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightFooterD.propTypes = {

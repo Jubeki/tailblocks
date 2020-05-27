@@ -76,7 +76,7 @@ function DarkEcommerceC(props) {
 }
 
 DarkEcommerceC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkEcommerceC.propTypes = {

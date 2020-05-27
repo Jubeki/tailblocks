@@ -77,7 +77,7 @@ function LightContactB(props) {
 }
 
 LightContactB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightContactB.propTypes = {

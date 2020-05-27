@@ -73,7 +73,7 @@ function DarkTestimonialC(props) {
 }
 
 DarkTestimonialC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkTestimonialC.propTypes = {

@@ -114,7 +114,7 @@ function LightContactC(props) {
 }
 
 LightContactC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightContactC.propTypes = {

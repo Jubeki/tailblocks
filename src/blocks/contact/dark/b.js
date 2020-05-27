@@ -77,7 +77,7 @@ function DarkContactB(props) {
 }
 
 DarkContactB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkContactB.propTypes = {

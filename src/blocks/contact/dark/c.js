@@ -114,7 +114,7 @@ function DarkContactC(props) {
 }
 
 DarkContactC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkContactC.propTypes = {

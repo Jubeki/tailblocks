@@ -32,7 +32,7 @@ function LightHeroB(props) {
 }
 
 LightHeroB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightHeroB.propTypes = {

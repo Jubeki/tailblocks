@@ -83,7 +83,7 @@ function DarkStepB(props) {
 }
 
 DarkStepB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkStepB.propTypes = {

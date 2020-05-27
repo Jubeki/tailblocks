@@ -121,7 +121,7 @@ function DarkBlogE(props) {
 }
 
 DarkBlogE.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkBlogE.propTypes = {

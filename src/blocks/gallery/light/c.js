@@ -149,7 +149,7 @@ function LightGalleryC(props) {
 }
 
 LightGalleryC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightGalleryC.propTypes = {

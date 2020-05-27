@@ -20,7 +20,7 @@ function LightCTAA(props) {
 }
 
 LightCTAA.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightCTAA.propTypes = {

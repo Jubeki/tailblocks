@@ -212,12 +212,12 @@ function DarkBlogA(props) {
           </div>
         </div>
       </div>
-    </section>    
+    </section>
   )
 }
 
 DarkBlogA.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkBlogA.propTypes = {

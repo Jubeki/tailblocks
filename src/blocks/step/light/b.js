@@ -83,7 +83,7 @@ function LightStepB(props) {
 }
 
 LightStepB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightStepB.propTypes = {

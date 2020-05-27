@@ -215,7 +215,7 @@ function DarkFooterC(props) {
 }
 
 DarkFooterC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkFooterC.propTypes = {

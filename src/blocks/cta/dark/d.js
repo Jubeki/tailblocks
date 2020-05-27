@@ -52,7 +52,7 @@ function DarkCTAD(props) {
 }
 
 DarkCTAD.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkCTAD.propTypes = {

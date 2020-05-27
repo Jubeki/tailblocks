@@ -6,7 +6,7 @@ import getBlock from './blocks';
 import getIcons from './icons';
 
 const iconList = getIcons();
-const themeList = ["indigo", "orange", "teal", "red", "purple", "pink", "blue", "green"];
+const themeList = ["indigo", "orange", "teal", "red", "purple", "pink", "blue", "green", "primary"];
 
 const desktopIcon = (
   <svg
@@ -89,12 +89,12 @@ class App extends Component {
       sidebar: true,
       codeView: false,
       view: 'desktop',
-      theme: 'indigo',
+      theme: 'primary',
       blockType: 'Blog',
       blockName: 'BlogA',
       markup: ''
     }
-    
+
     this.changeMode = this.changeMode.bind(this);
     this.changeTheme = this.changeTheme.bind(this);
     this.changeBlock = this.changeBlock.bind(this);
@@ -156,18 +156,18 @@ class App extends Component {
       div.innerHTML = str.trim();
       return format(div, 0).innerHTML.trim();
     }
-    
+
     const format = (node, level) => {
       let indentBefore = new Array(level++ + 1).join('  '),
         indentAfter = new Array(level - 1).join('  '),
         textNode;
-    
+
       for (let i = 0; i < node.children.length; i++) {
         textNode = document.createTextNode('\n' + indentBefore);
         node.insertBefore(textNode, node.children[i]);
-    
+
         format(node.children[i], level);
-    
+
         if (node.lastElementChild === node.children[i]) {
           textNode = document.createTextNode('\n' + indentAfter);
           node.appendChild(textNode);
@@ -208,14 +208,14 @@ class App extends Component {
 
   themeListRenderer() {
     const { theme } = this.state;
-    return themeList.map((t, k) => 
+    return themeList.map((t, k) =>
       <button key={k} data-theme={t} className={`theme-button bg-${t}-500${theme === t ? ' is-active' : ''}`} onClick={this.changeTheme}></button>
     )
   }
 
   listRenderer() {
     const { blockName } = this.state;
-    return Object.entries(iconList).map(([type, icons]) => 
+    return Object.entries(iconList).map(([type, icons]) =>
       <div className="blocks" key={type}>
         <div className="block-category">{type}</div>
         <div className="block-list">
@@ -282,7 +282,7 @@ class App extends Component {
                 <path d="M16 18L22 12 16 6"></path>
                 <path d="M8 6L2 12 8 18"></path>
               </svg>
-              : 
+              :
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -312,7 +312,7 @@ class App extends Component {
               contentDidUpdate={this.handleContentDidUpdate}
               head={
                 <>
-                <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css" rel="stylesheet" />
+                <link href="https://app.campy.test/css/app.css" rel="stylesheet" />
                 {darkMode ? <style dangerouslySetInnerHTML={{__html:`img { filter: invert(1); mix-blend-mode: color-dodge }`}} /> : <style dangerouslySetInnerHTML={{__html:`img { filter: sepia(1) hue-rotate(180deg) opacity(.9) grayscale(.7) }`}} />}
                 </>
               }

@@ -34,7 +34,7 @@ function LightHeroC(props) {
 }
 
 LightHeroC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightHeroC.propTypes = {

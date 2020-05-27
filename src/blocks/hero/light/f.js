@@ -68,7 +68,7 @@ function LightHeroF(props) {
 }
 
 LightHeroF.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightHeroF.propTypes = {

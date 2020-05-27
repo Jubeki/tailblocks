@@ -100,7 +100,7 @@ function DarkStatisticC(props) {
 }
 
 DarkStatisticC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkStatisticC.propTypes = {

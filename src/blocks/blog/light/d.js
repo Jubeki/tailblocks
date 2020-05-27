@@ -115,7 +115,7 @@ function LightBlogD(props) {
 }
 
 LightBlogD.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightBlogD.propTypes = {

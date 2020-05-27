@@ -184,7 +184,7 @@ function LightEcommerceB(props) {
 }
 
 LightEcommerceB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightEcommerceB.propTypes = {

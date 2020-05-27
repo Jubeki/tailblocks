@@ -105,6 +105,16 @@
   --main-100: #fff5f7;
 }
 
+.primary {
+  --main-500: #A000BA;
+  --main-400: #B333C8;
+}
+
+.primary:not(.dark-mode) {
+  --main-200: #D999E3;
+  --main-100: #ECCCF1;
+}
+
 button {
   user-select: none;
 }

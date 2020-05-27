@@ -41,7 +41,7 @@ function LightCTAB(props) {
 }
 
 LightCTAB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightCTAB.propTypes = {

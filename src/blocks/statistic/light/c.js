@@ -104,7 +104,7 @@ function LightStatisicC(props) {
 }
 
 LightStatisicC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightStatisicC.propTypes = {

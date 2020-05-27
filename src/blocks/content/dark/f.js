@@ -75,7 +75,7 @@ function DarkContentF(props) {
 }
 
 DarkContentF.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkContentF.propTypes = {

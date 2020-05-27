@@ -69,7 +69,7 @@ function LightHeroE(props) {
 }
 
 LightHeroE.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightHeroE.propTypes = {

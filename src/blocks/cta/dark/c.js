@@ -36,7 +36,7 @@ function DarkCTAC(props) {
 }
 
 DarkCTAC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkCTAC.propTypes = {

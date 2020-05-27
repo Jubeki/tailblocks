@@ -149,7 +149,7 @@ function LightFeatureB(props) {
 }
 
 LightFeatureB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightFeatureB.propTypes = {

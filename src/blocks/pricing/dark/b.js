@@ -446,7 +446,7 @@ function DarkPricingB(props) {
 }
 
 DarkPricingB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkPricingB.propTypes = {

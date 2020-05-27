@@ -34,7 +34,7 @@ function DarkHeroC(props) {
 }
 
 DarkHeroC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkHeroC.propTypes = {

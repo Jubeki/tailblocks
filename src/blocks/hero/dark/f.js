@@ -68,7 +68,7 @@ function DarkHeroF(props) {
 }
 
 DarkHeroF.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkHeroF.propTypes = {

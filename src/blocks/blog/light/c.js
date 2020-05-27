@@ -160,7 +160,7 @@ function LightBlogC(props) {
 }
 
 LightBlogC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightBlogC.propTypes = {

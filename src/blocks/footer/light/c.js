@@ -215,7 +215,7 @@ function LightFooterC(props) {
 }
 
 LightFooterC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 LightFooterC.propTypes = {

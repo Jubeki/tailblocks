@@ -46,7 +46,7 @@ function DarkHeaderD(props) {
 }
 
 DarkHeaderD.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkHeaderD.propTypes = {

@@ -106,7 +106,7 @@ function DarkGalleryB(props) {
 }
 
 DarkGalleryB.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkGalleryB.propTypes = {

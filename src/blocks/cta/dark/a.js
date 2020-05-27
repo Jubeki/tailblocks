@@ -20,7 +20,7 @@ function DarkCTAA(props) {
 }
 
 DarkCTAA.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkCTAA.propTypes = {

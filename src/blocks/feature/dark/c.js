@@ -137,7 +137,7 @@ function DarkFeatureC(props) {
 }
 
 DarkFeatureC.defaultProps = {
-  theme: 'indigo'
+  theme: 'primary'
 };
 
 DarkFeatureC.propTypes = {
